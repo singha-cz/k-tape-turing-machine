@@ -106,11 +106,11 @@ npm run preview
 1. Přejděte na https://singha-cz.github.io/k-tape-turing-machine/
 2. Vyberte demonstrační příklad ze seznamu
 3. Spusťte simulaci tlačítkem "▷" nebo krokujte pomocí tlačítka Další krok.
-4. Sledujte průběh výpočtu krok po kroku
-5. Prohlédněte si zakódovanou podobu stroje
+4. Pro navrácení stroje do výchozího stavu klikněte po dokončení simulace na tlačítko Reset.
+5. Prohlédněte si zakódovanou podobu stroje kliknutím na rozbalovací sekci Kód stroje.
 
 ## Zdroje
 
 - Učební materiály předmětu XTILO
 - turingmachine.io – https://turingmachine.io/
-- AI - OpenAI ChatGPT, Google Gemini
+- AI - Github Copilot, OpenAI ChatGPT, Google Gemini
