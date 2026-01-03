@@ -103,10 +103,11 @@ npm run preview
 
 ## Použití
 
-1. Vyberte demonstrační příklad ze seznamu
-2. Spusťte simulaci tlačítkem "Start"
-3. Sledujte průběh výpočtu krok po kroku
-4. Prohlédněte si zakódovanou podobu stroje
+1. Přejděte na https://singha-cz.github.io/k-tape-turing-machine/
+2. Vyberte demonstrační příklad ze seznamu
+3. Spusťte simulaci tlačítkem "▷" nebo krokujte pomocí tlačítka Další krok.
+4. Sledujte průběh výpočtu krok po kroku
+5. Prohlédněte si zakódovanou podobu stroje
 
 ## Zdroje
 
