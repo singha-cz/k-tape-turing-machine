@@ -1,4 +1,3 @@
-import { log } from "console";
 import { Rule } from "../factory/Rule";
 import { State } from "../factory/State";
 import { Operation } from "../types";

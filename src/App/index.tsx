@@ -182,7 +182,6 @@ const App = () => {
     isEnd,
     heads = [],
     tapes = [],
-    appliedRule,
   } = currentStep || {};
 
   const { input = "", output = "", inputDecimal = "" } = currentSimulation || {};
