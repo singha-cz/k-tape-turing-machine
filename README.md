@@ -23,24 +23,39 @@ Aplikace obsahuje následující ukázkové Turingovy stroje:
 - **Vstup:** `#10111#` (23 v desítkové soustavě)
 - **Výstup:** `#11000#` (24)
 - Zvyšuje binární číslo o jedničku
+- Princip:
+  1. Přesuneme hlavu na konec pásky vpravo.
+  2. Postupujeme zprava doleva. Najdeme-li 0, změníme na 1 a ukončíme program.
+  3. Najdeme-li 1, změníme na 0 a postupujeme dále vlevo.
 
 ### 2. Dekrementace binárního čísla
 
 - **Vstup:** `#1101110#` (110)
 - **Výstup:** `#1101101#` (109)
 - Snižuje binární číslo o jedničku
+- Princip:
+  1. Přesuneme hlavu na konec pásky vpravo.
+  2. Postupujeme zprava doleva. Najdeme-li 0, změníme na 1 a postupujeme dále vlevo.
+  3. Najdeme-li 1, změníme na 0 a ukončíme program.
 
-### 3. Součet binárních čísel
+### 3. Součet n-tice binárních čísel
 
 - **Vstup:** `#111+10+110#` (7 + 2 + 6)
 - **Výstup:** `1111` (15)
-- Sčítá více binárních čísel oddělených operátorem `+`
+- Sčítá více binárních čísel oddělených operátorem `+`.
+- Princip:
+  1. Přesuneme hlavu na konec T1 a postupnně procházíme pásku směrem zprava doleva.
+  2. První nalezené číslo pouze překopírujeme na T2.
+  3. Přesuneme hlavu T1 na následující číslo, které sečteme s hodnotou na T2.
+  4. Po dokončení součtu přesuneme hlavu T2 na konec pásky.
+  5. Pokračujeme krokem 3 do té doby, než se dostaneme na začátek T1.
+  6. Výsledek je na T2.
 
-### 4. Součin binárních čísel
+### 4. Součin n-tice binárních čísel
 
-- **Vstup:** Více binárních čísel
-- **Výstup:** Jejich součin
-- Násobí binární čísla pomocí primitivně rekurzivních funkcí
+- **Vstup:** N-tice binárních čísel
+- **Výstup:** TODO
+- Násobí binární čísla
 
 ## Architektura
 
@@ -96,5 +111,5 @@ npm run preview
 ## Zdroje
 
 - Učební materiály předmětu XTILO
-  -turingmachine.io – Interaktivní simulátor Turingova stroje (vizualizace a ověřování jednoduchých konfigurací): https://turingmachine.io/
-- AI - ChatGPT, Gemini
+- turingmachine.io – https://turingmachine.io/
+- AI - OpenAI ChatGPT, Google Gemini
